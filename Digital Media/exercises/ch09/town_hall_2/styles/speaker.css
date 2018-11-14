@@ -24,11 +24,11 @@ html {
 
 body {
 	font-family: Arial, Helvetica, sans-serif;
-    font-size: 100%;
-    width: 800px;
-    margin: 0 auto;
-    border: 3px solid #931420;
-    background-color: #fffded; }
+	font-size: 100%;
+	width: 800px;
+	margin: 0 auto;
+	border: 3px solid #931420;
+	background-color: #fffded; }
 a:focus, a:hover {
 	font-style: italic; }
 
@@ -38,8 +38,6 @@ a:focus, a:hover {
 /*___________________________________*/
 /* the styles for the header element */
 /*___________________________________*/
-
-
 header {
 	padding: 1.5em 0 2em 0;
 	border-bottom: 3px solid #931420;
@@ -87,8 +85,6 @@ header img {
     background-color: #800000;
     color: white;
     font-weight: bold; }
-#nav_menu a.current {
-	color: yellow; }
 #nav_menu ul ul {
     display: none;
     position: absolute;
@@ -126,32 +122,24 @@ section {
 	float: right;
 	padding: 0 20px 20px 20px; }
 section h1 {
-	font-size: 150%;
-	padding: .5em 0 .25em 0;
-	margin: 0; }
-section h2 {
 	color: #800000;
-	font-size: 130%;
-	padding: .5em 0 .25em 0; }
+	font-size: 150%;
+	padding-top: .5em;
+	margin: 0; }
 section p {
 	padding-bottom: .5em; }
 section blockquote {
 	padding: 0 2em;
 	font-style: italic; }
 section ul {
-	padding: 0 0 .25em 1.25em;
-	list-style-type: circle; }
+	padding: 0 0 .25em 1.25em; }
 section li {
 	padding-bottom: .35em; }
 article {
-	padding: .5em 0;
-	border-top: 2px solid #800000;
-	border-bottom: 2px solid #800000; }
+	padding: .5em 0; }
 article h2 {
-	padding-top: 0; }
-article h3 {
-	font-size: 105%;
-	padding-bottom: .25em; }
+	font-size: 115%;
+	padding: 0 0 .25em 0; }
 article img {
 	float: right;
 	margin: .5em 0 1em 1em;
@@ -172,33 +160,21 @@ aside img {
 
 
 
-
-
 /*__________________________________*/
 /* the styles for the footer element*/
 /*__________________________________*/
 
 
-
-table {
-	border-bottom-color: #800000;
-	border-top-color: #800000;
-	border-top-style: solid;
-	border-bottom-style: solif;
-	border-top-width: 1px;
-	border-bottom-width: 1px;
-	padding-top: 1em;
-	padding-bottom: 1em; }
-tr, th, td {
-	border-bottom-color: #800000;
-	border-top-color: #800000;
-	border-top-style: solid;
-	border-bottom-style: solif;
-	border-top-width: 1px;
-	border-bottom-width: 1px; }		
-.costsavings {
+figure {
+	float: right; 
+	width: 250px; }
+figcaption {
+	display: block;
 	font-weight: bold;
-	padding-right: 2em; }
+	padding-top: .25em;
+	border-bottom: 1px;
+	border-bottom-style: solid; 
+	border-bottom-color: black; }
 
 
 

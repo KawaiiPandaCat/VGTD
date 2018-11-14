@@ -1,52 +1,86 @@
+/* the reset selector*/
+* {
+	margin: 0;
+	padding: 0; }
+
+
+/*_______________________________________________________ */
+/* =======the styles for the html & header elements====== */
+/*_______________________________________________________ */
+
+
 html { 
 	background: url(images/bg.jpg) no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
-}
-h1 {
+	background-size: cover; }
+header h1 {
 	margin: 0;
-	padding: .25em;
+	padding: 1em;
 	font-size: 400%;
-	font-family: "Times New Roman", "Arial";
-}
+	font-family: "Times New Roman", "Arial"; }
+header h2 {
+	margin: 0;
+	font-size: 100%; }
+header h3 {
+	border-top: 2px;
+	border-bottom: 2px; }
+
+
+/*_____________________________________________________ */
+/* =======the styles for the body & main elements====== */
+/*_____________________________________________________ */
+
+
 body {
 	font-size: 120%;
-	font-family: "Times New Roman", "Arial";
-}
+	font-family: "Times New Roman", "Arial"; }
+main div {
+	column-count: 3;
+	column-riule-style: solid;
+	column-rule-width: 1px;
+	column-width: 100px; }
 p em {
-	color: #00FF00;
-}
-.classtest {
-	color: purple;
-	font-size: 170%;
-}
+	color: #00FF00; }
+
+
+/*_______________________________________________ */
+/* =======the styles for the extra elements====== */
+/*_______________________________________________ */
+
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
-}
-
+    background-color: #333; }
 li {
-    float: left;
-}
-
+    float: left; }
 li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
-}
+    text-decoration: none; }
 li a:hover {
-    background-color: #111;
-}
-a:hover {
-	font-size: 200%;
-}
+    background-color: #111; }
+.left {
+	float: left; }
+.center {
+	float: center; }
+.right {
+	
+
+
+/*________________________________________________ */
+/* =======the styles for the footer elements====== */
+/*________________________________________________ */
+
+
+
+
 
 /EXTRA STUFF TO REMEMBER/
 /*<a href="url">link text</a>*/

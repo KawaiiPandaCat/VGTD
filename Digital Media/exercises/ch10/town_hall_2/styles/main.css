@@ -174,31 +174,28 @@ aside img {
 
 
 
-/*__________________________________*/
-/* the styles for the footer element*/
-/*__________________________________*/
-
+/*_________________________________*/
+/* the styles for the table element*/
+/*_________________________________*/
 
 
 table {
-	border-bottom-color: #800000;
-	border-top-color: #800000;
-	border-top-style: solid;
-	border-bottom-style: solif;
-	border-top-width: 1px;
-	border-bottom-width: 1px;
-	padding-top: 1em;
-	padding-bottom: 1em; }
+	dispaly: block; }
 tr, th, td {
 	border-bottom-color: #800000;
 	border-top-color: #800000;
 	border-top-style: solid;
-	border-bottom-style: solif;
-	border-top-width: 1px;
-	border-bottom-width: 1px; }		
+	border-bottom-style: solid;
+	border-top-width: 2px;
+	border-bottom-width: 2px;
+	padding-left: .7em;
+	padding-right: .7em; }		
 .costsavings {
-	font-weight: bold;
-	padding-right: 2em; }
+	font-weight: bold; }
+.thatdamnpadding {
+	padding-right: 0 !important; }
+figure {
+	margin: 0; }
 
 
 
