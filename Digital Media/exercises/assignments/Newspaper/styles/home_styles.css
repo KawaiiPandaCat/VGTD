@@ -1,0 +1,125 @@
+/* the reset selector*/
+* {
+	margin: 0;
+	padding: 0; }
+
+
+/*_______________________________________________________ */
+/* =======the styles for the html & header elements====== */
+/*_______________________________________________________ */
+
+
+html { 
+	background: url(../images/bg.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; }
+header h1 {
+	font-size: 400%;
+	font-family: "Algerian Regular", "Times New Roman"; }
+header h2 {
+	font-size: 200%;
+	font-family: "French Script MT Regular", "Times New Roman"; }
+tr, th, td {
+	border-bottom-color: #800000;
+	border-top-color: #800000;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-width: 2px;
+	border-bottom-width: 2px;
+	padding-left: .7em;
+	padding-right: .7em; }		
+div {
+	column-count: 3;
+	column-rule-style: solid;
+	column-rule-width: 1px;
+	column-rule-color: #000000; }
+blockquote {
+	font-size: 130%;
+	border-left: 10px solid #ccc;
+	margin: 1.5em 10px;
+	padding: 0.5em 10px; }
+blockquote:before {
+	content: open-quote;
+	font-size: 4em;
+	line-height: 0.1em;
+	margin-right: 0.25em;
+	vertical-align: -0.4em; }
+blockquote p {
+	display: inline; }
+
+
+
+/*_____________________________________________________ */
+/* =======the styles for the body & main elements====== */
+/*_____________________________________________________ */
+
+
+body {
+	text-align: justify;
+	font-size: 120%;
+	font-family: "Times New Roman", "Arial"; }
+body h3 {
+	font-size: 80%;
+	font-family: "Elephant", "Times New Roman";
+	color: #FFFFFF;
+	background-color: #000000;
+	padding: .5em; }
+body p {
+	padding: .5em;}
+body p blockquote {
+	padding: 0 2em;
+	font-style: italic; }
+body img {
+	width: 100%;
+	height: auto;
+	border: 1px solid black; }
+
+
+
+/*______________________________________________ */
+/* =======the styles for the list elements====== */
+/*______________________________________________ */
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333; }
+li {
+    float: left; }
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; }
+li a:hover {
+    background-color: #111; }
+
+
+
+/*________________________________________________ */
+/* =======the styles for the footer elements====== */
+/*________________________________________________ */
+
+
+
+
+
+
+/*___________________________________________________ */
+/* =======the styles for the class and id items====== */
+/*___________________________________________________ */
+
+
+.alignleft {
+	float: left; }
+.aligncenter {
+	float: center; }
+.alignright {
+	float: right; }
+
