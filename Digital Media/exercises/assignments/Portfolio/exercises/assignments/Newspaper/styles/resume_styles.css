@@ -1,0 +1,185 @@
+/* the reset selector*/
+* {
+	margin: 0;
+	padding: 0; }
+
+
+/*_______________________________________________________ */
+/* =======the styles for the html & header elements====== */
+/*_______________________________________________________ */
+
+
+html { 
+	background: url(../images/bg.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; }
+header WHY h1 {
+	font-size: 400%;
+	font-family: "Algerian Regular", "Times New Roman"; }
+header WHY h2 {
+	font-size: 200%;
+	font-family: "French Script MT Regular", "Times New Roman"; }
+header WHY div {
+	width: 35px;
+	height: 2px;
+	background-color: white;
+	margin: 6px 0; }
+header WHY tr, th, td {
+	border-bottom-color: #800000;
+	border-top-color: #800000;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-width: 2px;
+	border-bottom-width: 2px;
+	padding-left: .7em;
+	padding-right: .7em; }		
+
+
+
+/*_____________________________________________________ */
+/* =======the styles for the body & main elements====== */
+/*_____________________________________________________ */
+
+
+main {
+	margin: 0 auto;
+	background-color:white;
+	width: 90%; }
+body {
+	text-align: justify;
+	font-family: "Arial"; }
+main body h1 {
+	font-size: 150%;
+	font-family: "Arial"; 
+	padding-top: 2em;
+	padding-right: 2em;
+	padding-bottom: 2em;
+	padding-left: 2em; }
+main body h2 {
+	font-size: 20%;
+	font-family: Actor, sans-serif;
+	padding-top: 2em;
+	padding-right: 2em;
+	padding-bottom: 2em;
+	padding-left: 2em; }
+main body table {
+	font-size: 80%;
+	padding-top: 1em;
+	padding-right: 2em;
+	padding-bottom: 2em;
+	padding-left: 2em; 
+	width: 100%; }	
+main body tr, th, td {
+	padding-top: 1em;
+	padding-right: 1em;
+	padding-bottom: 1em;
+	padding-left: 1em; 
+	border-top-color: #FFFFFF;
+	border-right-color: #FFFFFF; 
+	border-bottom-color: #FFFFFF; 
+	border-left-color: #FFFFFF;  }
+main body hr {
+	}
+
+
+
+
+/*______________________________________________ */
+/* =======the styles for the list elements====== */
+/*______________________________________________ */
+
+
+header WHY ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333; }
+header WHY li {
+	font-family: "Arial";
+	font-size: 120%;
+	float: left; }
+header WHY li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 8px 16px;
+	text-decoration: none; }
+header WHY li a:hover {
+	background-color: #111; }
+header WHY div {
+	width: 35px;
+	height: 2px;
+	background-color: white;
+	margin: 6px 0; }
+header WHY .current {
+	color: yellow; }
+
+
+
+
+/*_____________________________________________ */
+/* =======the styles for the side menubar====== */
+/*_____________________________________________ */
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0; 
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.5s; }
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.5s; }
+.sidenav a:hover {
+    background-color: #800080; }
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px; }
+#main {
+    transition: margin-left 1s;
+    padding: 20px; }
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;} }
+
+
+
+
+/*________________________________________________ */
+/* =======the styles for the footer elements====== */
+/*________________________________________________ */
+
+
+
+
+
+
+
+/*___________________________________________________ */
+/* =======the styles for the class and id items====== */
+/*___________________________________________________ */
+
+
+.italic {
+	font-weight: italic; }
+.indent {
+	padding-left: 4em; }
+
+
+

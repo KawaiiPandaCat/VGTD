@@ -1,0 +1,122 @@
+/* the reset selector*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* the styles for the elements */
+html {
+	background-color: #FFFFFF;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	width: 600px;
+	margin-top: 0;
+	margin-right: auto;
+	margin bottom: 0;
+	margin-left: auto;
+	border-width: 3px;
+	border-style: solid;
+	border-color: #931420;
+	background-color: #fffded
+}
+
+/* the styles for the header */
+
+/* the styles for the section */
+main img {
+	padding-bottom: 1em;
+}
+mian p {
+	padding-bottom: 0.5em;
+}
+main blockquote {
+	padding-right: 2em;
+	padding-left: 2em;
+	padding-top: 1em;
+}
+main ul {
+	padding-bottom: 0.25em;
+	padding-left: 1.25em;
+}
+main li {
+	padding-bottom: 0.35em;
+}
+main {
+	clear: left;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+main h1 {
+	font-size: 150%;
+	border-top-width: 3px;
+	border-top-style: double;
+	border-top-color: #931420;
+	border-right-width: 3px;
+	border-right-style: double;
+	border-right-color: #931420;
+	border-bottomt-width: 3px;
+	border-bottom-style: double;
+	border-bottom-color: #931420;
+	border-left-width: 3px;
+	border-left-style: double;
+	border-left-color: #931420;
+	border-radius: 5px;
+	padding-top: 0.3em;
+	padding-bottom: 0.3em;
+	box-shadow: 5px 5px;
+}
+main h2 {
+	font-size: 130%;
+	color: #800000;
+	padding-top: 0.5em;
+	padding-bottom: 0.25em;
+}
+main h3 {
+	font-size: 105%;
+	padding-bottom: 0.25em;
+}
+header {
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #931420;
+	padding-top: 1.5em;
+	padding-bottom: 2em;
+	background-image: linear-gradient(to bottom left, #f6bb73 0%, #f6bb73 30%, #ffffff 50%, #f6bb73 80%, #f6bb73 100%);
+}
+header img {
+	float: left;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+header h1 {
+}
+header h2 {
+	font-size: 170%;
+	color: #800000;
+}
+header h3 {
+	font-size: 130%;
+	font-style: italic;
+}
+.shadow {
+	text-shadow: 1px 1px;
+	color: #800000;
+}
+a:hover {
+	font-style: italic;
+}
+
+/* the styles for the footer */
+
+footer {
+	background-color: #931420;
+
+}
+footer p {
+	text-align: center;
+	color: #ffffff;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}

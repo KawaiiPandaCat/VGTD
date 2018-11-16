@@ -1,0 +1,176 @@
+/* the reset selector*/
+* {
+	margin: 0;
+	padding: 0; }
+
+
+/*______________________________________________ */
+/* =======the styles for the list elements====== */
+/*______________________________________________ */
+
+
+header ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #4B0082; }
+header li {
+	font-family: "Arial";
+	font-size: 120%;
+	float: left; }
+header li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 8px 16px;
+	text-decoration: none; }
+header li a:hover {
+	background-color: #9400D3; }
+header div {
+	width: 35px;
+	height: 2px;
+	background-color: white;
+	margin: 5px 0; }
+header .current {
+	background-color: #9400D3; }
+
+
+
+
+/*_____________________________________________ */
+/* =======the styles for the side menubar====== */
+/*_____________________________________________ */
+
+
+.sidenav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0; 
+	left: 0;
+	background-color: #4B0082;
+	overflow-x: hidden; 
+	padding-top: 20px; 
+	transition: 0.5s; }
+.sidenav a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	color: white;
+	display: block;
+	transition: 0.5s; }
+.sidenav a:hover {
+	background-color: #9400D3; }
+.sidenav .closebtn {
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 36px; }
+#main {
+	transition: margin-left 1s;
+	padding: 20px; }
+@media screen and (max-height: 450px) {
+	.sidenav {padding-top: 15px;}
+	.sidenav a {font-size: 18px;} }
+
+
+
+
+
+/*____________________________________________ */
+/* =======the styles for banner elements====== */
+/*____________________________________________ */
+
+
+banner h1 {
+	text-align: center;
+	padding-top: 2.5em;
+	font-family: "Arial";
+	font-size: 400%;
+	color: white; }
+banner h2 {
+	text-align: center;
+	padding-bottom: 4em;
+	font-family: "Arial";
+	font-size: 150%;
+	color: yellow; }
+#bannerimage {
+	margin: 0 auto;
+	width: 100%;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/bggif01.gif);
+	background-repeat: no-repeat;
+	height: 405px;
+	background-color: purple;
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; }
+
+
+
+
+
+
+/*_______________________________________________________ */
+/* =======the styles for the contact boxes elements====== */
+/*_______________________________________________________ */
+
+
+* {
+	box-sizing: border-box; }
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical; }
+input[type=submit] {
+	width: 100%;
+	background-color: #4B0082;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	cursor: pointer; }
+input[type=submit]:hover {
+	background-color: #9400D3; }
+.container {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 10px; }
+.column {
+	float: left;
+	width: 50%;
+	margin-top: 6px;
+	padding: 20px; }
+.row:after {
+	content: "";
+	display: table;
+	clear: both; }
+@media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+        width: 100%;
+        margin-top: 0; } }
+
+
+
+
+/*___________________________________________________ */
+/* =======the styles for the class and id items====== */
+/*___________________________________________________ */
+
+
+.italic {
+	font-weight: italic; }
+.indent {
+	padding-left: 4em; }
+.buttondev {
+	margin-left: 20%;
+	margin-right: 5%; }
+.buttonyt {
+	margin-left: 5%;
+	margin-right: 20%; }
+

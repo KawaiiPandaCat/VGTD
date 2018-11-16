@@ -1,0 +1,188 @@
+/* the reset selector*/
+* {
+	margin: 0;
+	padding: 0; }
+
+
+/*_______________________________________________________ */
+/* =======the styles for the html & header elements====== */
+/*_______________________________________________________ */
+
+
+html { 
+	background: url(../images/bg.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; }
+header h1 {
+	font-size: 400%;
+	font-family: "Algerian Regular", "Times New Roman"; }
+header h2 {
+	font-size: 200%;
+	font-family: "French Script MT Regular", "Times New Roman"; }
+header div {
+	width: 35px;
+	height: 2px;
+	background-color: white;
+	margin: 6px 0; }
+header tr, th, td {
+	border-bottom-color: #800000;
+	border-top-color: #800000;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-width: 2px;
+	border-bottom-width: 2px;
+	padding-left: .7em;
+	padding-right: .7em; }		
+main div {
+	column-count: 3;
+	column-rule-style: solid;
+	column-rule-width: 1px;
+	column-rule-color: #000000; }
+main table {
+	width: 80%; 
+	height: auto; }
+blockquote {
+	font-size: 130%;
+	border-left: 10px solid #ccc;
+	margin: 1.5em 10px;
+	padding: 0.5em 10px; }
+blockquote:before {
+	content: open-quote;
+	font-size: 4em;
+	line-height: 0.1em;
+	margin-right: 0.25em;
+	vertical-align: -0.4em; }
+blockquote p {
+	display: inline; }
+
+
+
+/*_____________________________________________________ */
+/* =======the styles for the body & main elements====== */
+/*_____________________________________________________ */
+
+
+body {
+	text-align: justify;
+	font-size: 120%;
+	font-family: "Times New Roman", "Arial"; }
+body h3 {
+	font-size: 80%;
+	font-family: "Elephant", "Times New Roman";
+	color: #FFFFFF;
+	background-color: #000000;
+	padding: .5em; }
+body p {
+	padding: .5em;}
+body p blockquote {
+	padding: 0 2em;
+	font-style: italic; }
+body img {
+	width: 100%;
+	height: auto;
+	border: 1px solid black; }
+
+
+
+/*______________________________________________ */
+/* =======the styles for the list elements====== */
+/*______________________________________________ */
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333; }
+li {
+    float: left; }
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; }
+li a:hover {
+    background-color: #111; }
+
+
+
+
+/*__________________________________*/
+/* the styles for the figure element*/
+/*__________________________________*/
+
+
+figure {
+	float: center; 
+	width: 100%; }
+figcaption {
+	font-size: 80%;
+	font-family: "Arial";
+	text-align: center;
+	display: block;
+	padding-top: .5em;
+	padding-bottom: .5em; }
+
+
+
+
+/*___________________________________________________ */
+/* =======the styles for the class and id items====== */
+/*___________________________________________________ */
+
+
+.alignleft {
+	float: left; }
+.aligncenter {
+	float: center; }
+.alignright {
+	float: right; }
+.current {
+	background-color: #000000; }
+
+
+
+/*_____________________________________________ */
+/* =======the styles for the side menubar====== */
+/*_____________________________________________ */
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0; 
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.5s; }
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.5s; }
+.sidenav a:hover {
+    background-color: #800080; }
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px; }
+#main {
+    transition: margin-left 1s;
+    padding: 20px; }
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;} }
+
+
+

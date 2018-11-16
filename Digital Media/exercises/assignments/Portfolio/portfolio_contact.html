@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+<header>
+	<title>Portfolio</title>
+<!-- _______________________________________________________________ -->
+<!-- ======================the nav menu coding====================== -->
+<!-- _______________________________________________________________ -->
+
+	<link rel="stylesheet" type="text/css" href="styles/contact_styles.css">
+
+	<ul>
+		<li><a href="#sidemenu"><span onclick="openNav()"><div></div>
+				    			      <div></div>
+				   			      <div></div></a></span></li>
+ 		<li><a href="portfolio_home.html">Home</a></li>
+		<li><a href="portfolio_exweb.html">External Websites</a></li>
+		<li><a href="portfolio_resume.html">Resume</a></li>
+		<li style="float:right"><a class="current" href="portfolio_contact.html">Contact</a></li>
+	</ul>
+
+
+
+<!-- ________________________________________________________________ -->
+<!-- ======================the side menu coding====================== -->
+<!-- ________________________________________________________________ -->
+
+	<div id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()" float="right">&times;</a>
+		<br>
+		<br>
+		<br>
+		<hr>
+		<br>
+		<a href="portfolio_home.html">Home</a>
+		<a href="portfolio_exweb.html">External Websites</a>
+		<a href="portfolio_resume.html">Resume</a>
+		<a href="portfolio_contact.html" class="current">Contact</a>
+		<br>
+		<hr>
+		<br>
+		<a href="portfolio_modcoll.html">Module 01</a>
+		<a href="portfolio_modcoll.html">Module 02</a>
+		<a href="portfolio_modcoll.html">Module 03</a>
+		<a href="portfolio_modcoll.html">Module 04</a>
+		<a href="portfolio_modcoll.html">Module 05</a>
+		<a href="portfolio_modcoll.html">Module 06</a>
+		<a href="portfolio_modcoll.html">Module 07</a>
+		<a href="portfolio_modcoll.html">Module 08</a>
+		<a href="portfolio_modcoll.html">Module 09</a>
+		<a href="portfolio_modcoll.html">Module 10</a>
+		<br>
+		<hr>
+		<br>
+		<a href="htps://deviantart.com">Deviantart</a>
+		<a href="https://www.facebook.com/TheAmazingNichole">Facebook</a>
+		<a href="https://youtube.com">Youtube</a>
+		<br><br><br>
+	</div>
+<script>
+function openNav() {
+	document.getElementById("mySidenav").style.width = "200px"; 
+}
+function closeNav() {
+	document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+
+
+<!-- __________________________________________________________________ -->
+<!-- ======================the main header coding====================== -->
+<!-- __________________________________________________________________ -->
+
+<banner>
+	<div id="bannerimage">
+	<h1>Contact</h1>
+	<h2>Send me an email.</h2>
+	</div>
+</banner>
+</header>
+
+
+
+
+<!-- _____________________________________________________________ -->
+<!-- ===================the main and body coding================== -->
+<!-- _____________________________________________________________ -->
+
+<main>
+<body>
+	<div class="container">
+	</div>
+	<br><br>
+	<div class="column">
+		<form action="/action_page.php">
+		<label for="fname">First Name:</label>
+		<input type="text" id="fname" name="firstname" placeholder="your first name...">
+        	<label for="lname">Last Name:</label>
+        	<input type="text" id="lname" name="lastname" placeholder="your last name...">
+        	<label for="fname">Email:</label>
+		<input type="text" id="fname" name="firstname" placeholder="your email...">
+        </div>
+	<div class="column">
+		<label for="subject">Message</label>
+        	<textarea id="subject" name="subject" placeholder="write your message..." style="height:145px"></textarea>
+        	<input type="submit" value="Submit">
+	</form>
+	</div>
+  	</div>
+	</div>
+	<br><br><br>
+	<table width="100%">
+	<tr>
+		<td align="left"><input type="image" class="buttondev" src="images/devbut.png" alt="Deviantart" width="100" height="100" onclick="window.location.href='https://www.deviantart.com/'"></td>
+		<td align="center"><input type="image" src="images/fbbut.png" alt="Facebook" width="100" height="100" onclick="window.location.href='https://www.facebook.com/TheAmazingNichole'"></td>
+		<td align="right"><input type="image" class="buttonyt" src="images/ytbut.png" alt="Youtube" width="100" height="100" onclick="window.location.href='https://www.youtube.com'"></td>
+	</tr>	
+	</table>
+	<br><br><br><br><br><br><br><br>
+</body>
+</main>
+
+
+
+<!-- _____________________________________________________________ -->
+<!-- ======================the footer coding====================== -->
+<!-- _____________________________________________________________ -->
+
+<footer>
+</footer>
+</html>
